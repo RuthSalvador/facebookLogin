@@ -22,8 +22,7 @@
       if (thisdocument.getElementById(id)) return;
 
       js = thisdocument.createElement(scriptelement); js.id = id;
-      js.sr
-      c = "//connect.facebook.net/en_US/sdk.js";
+      js.src = "//connect.facebook.net/en_US/sdk.js";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>

@@ -10,7 +10,7 @@ const render = (root) => {
     wrapper.append(Dashboard());
   }
   root.append(wrapper);
-}
+};
 
 const state = {
   user: null,
@@ -19,5 +19,6 @@ const state = {
 
 $( _ => {
   const root = $('#root');
+  render(root);
   state.doRender = render.bind(null,root);
 });
