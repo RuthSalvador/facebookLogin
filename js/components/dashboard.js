@@ -1,6 +1,6 @@
 'use strict';
 
-const Dashboard = () => {
+const Dashboard = _ => {
   const dashboard = $('<div class="dashboard">Dashboard Component</div>');
 
   if (state.user) {
